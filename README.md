@@ -13,9 +13,9 @@
 ![teste](http://i66.tinypic.com/1zd88ko.png)
 
   A classe client que é a classe Sistema possui uma Element que contem um método accept, neste caso o elementy que é
-  uma classe base que é herdada pela concretElement do sistema, ou seja os elementos que estarei utilizando na aplicação. 
+  uma classe base que é herdada pela concretElement do sistema, ou seja os elementos que utilizei na aplicação. 
   O método accept recebe como parametro o visitor.
-  Visitor nada mais é que uma interface que realizara o concretVisitor, já a interface contem apenas um método visit que 
+  O Visitor nada mais é que uma interface que realizara o concretVisitor, já a interface contem apenas um método visit que 
   recebe como parametro o concretElemente.
   
   
