@@ -10,7 +10,8 @@
   
   # Estrutura padrão de projeto Visitor
   
- file:///C:/Users/Juliano/Desktop/diagrama.png
+![teste](http://i66.tinypic.com/1zd88ko.png)
+
 
 
 
