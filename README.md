@@ -8,7 +8,7 @@
   O visitor tambem permite definir uma nova operação sem mudar as classes dos elementos sobre os quais opera.
   
   
-## - Estrutura padrão de projeto Visitor
+##  Estrutura padrão de projeto Visitor
   
 ![teste](http://i66.tinypic.com/1zd88ko.png)
 
@@ -19,7 +19,7 @@
   recebe como parametro o concretElemente.
   
   
-## - Funcionalidade
+##  Funcionalidade
 
   Basicamente o funcionamento ocorre da seguinte maneira:
    O client diz que nosso concretElement aceita um visitor, desta forma quando é chamado um método accept ele chama do
