@@ -26,6 +26,13 @@
    visitor a sua função visit que pode alterar o estado do elemento concreto emplementando as funcionalidades ou até 
   mesmo alterar os seus atributos.
   
+## Estrutura Codificada
+
+![p1](http://i67.tinypic.com/30m7khe.jpg)
+
+Foi criado uma classe Elemento que possui apenas um método accept que recebe como parametro a interface Visitor, desta forma
+é garantido que todos os objetos que herdaram o elemento terão o método accept.
+  
 
 
 
