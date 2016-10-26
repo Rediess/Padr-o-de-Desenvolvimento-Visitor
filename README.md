@@ -30,8 +30,25 @@
 
 ![p1](http://i67.tinypic.com/30m7khe.jpg)
 
-Foi criado uma classe Elemento que possui apenas um método accept que recebe como parametro a interface Visitor, desta forma
+ Foi criado uma classe Elemento que possui apenas um método accept que recebe como parametro a interface Visitor, desta forma
 é garantido que todos os objetos que herdaram o elemento terão o método accept.
+
+![p2](http://i64.tinypic.com/2nrehih.jpg)
+
+ A interface visitor possui apenas um método visit que recebe como parametro um elementConcreto.
+
+![p3](http://i66.tinypic.com/2d0avc9.jpg)
+
+ O elementoConcreto que extende o Elemento possui um método accept, quando ele aceita o visitor ele chamao método visit do Visitor e passa como parametro ele mesmo.
+ 
+![p4](http://i64.tinypic.com/331nk1g.jpg)
+
+ Desta forma no VisitorConcreto podemos manipular as informações do elementoConcreto. Neste exemplo está sendo mostrado a mensagem "Estou Visitando" e o nome correspondente a o elementoConcreto.
+ 
+![p5](http://i63.tinypic.com/qozic6.jpg)
+
+ Na calsse Sistema foi instanciado o ElementoConcreto e também o VisitorConcreto, já o elementoConcreto aceitara o visitorConcreto. 
+
   
 
 
