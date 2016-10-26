@@ -8,10 +8,24 @@
   O visitor tambem permite definir uma nova operação sem mudar as classes dos elementos sobre os quais opera.
   
   
-  # Estrutura padrão de projeto Visitor
+# Estrutura padrão de projeto Visitor
   
 ![teste](http://i66.tinypic.com/1zd88ko.png)
 
+  A classe client que é a classe Sistema possui uma Element que contem um método accept, neste caso o elementy que é
+  uma classe base que é herdada pela concretElement do sistema, ou seja os elementos que estarei utilizando na aplicação. 
+  O método accept recebe como parametro o visitor.
+  Visitor nada mais é que uma interface que realizara o concretVisitor, já a interface contem apenas um método visit que 
+  recebe como parametro o concretElemente.
+  
+  
+# Funcionalidade
+
+  Basicamente o funcionamento ocorre da seguinte maneira:
+  - O client diz que nosso concretElement aceita um visitor, desta forma quando é chamado um método accept ele chama do
+  - visitor a sua função visit que pode alterar o estado do elemento concreto emplementando as funcionalidades ou até 
+  - mesmo alterar os seus atributos.
+  
 
 
 
